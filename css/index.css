@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2f3542;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.topo {
+    background-color: #ff6348;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 150px;
+    height: 90px;
+
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2f3542;
+    text-decoration: none;
+}
+
+.nav_link {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link   {
+    transition: all 0.3s ease 0s;
+    color: #2f3542;
+}
+
+.nav_link :hover {
+    color: black;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: #dcdde1;
+}
+th{
+    color:#ff6348;
+}
+.nome{
+    color: #dcdde1;
+}
+.descricao{
+   color: #dcdde1;
+}
+.preco{
+    color: #dcdde1;
+}
+
+.sombra {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+h2 {
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 40px;
+    color: #ff6348;
+}
+
+.btns{
+    display: flex;
+}
+
+.editar {
+    display: flex;
+    font-size: 38px;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.btn-editar {
+    border: 0;
+    background-color: #78e08f;
+    margin: 10px 5px;
+    border: 2px solid #2f3542;
+    padding: 6px 12px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn-editar:hover {
+    background-color: #4cd137;
+    color: #2f3542;
+
+}
+.ver {
+    display: flex;
+    font-size: 38px;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.btn-ver {
+    border: 0;
+    background-color: #ff6348;
+    margin: 10px 5px;
+    border: 2px solid #2f3542;
+    padding: 6px 12px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn-ver:hover {
+    background-color:#ff7f50;
+    color: #2f3542;
+
+}
+.excluir {
+    display: flex;
+    font-size: 38px;
+    justify-content: space-between;
+    align-items: center;
+    font-style: none;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.btn-excluir {
+    border: 0;
+    background-color: #EA2027;
+    margin: 10px 5px;
+    border: 2px solid #2f3542;
+    padding: 6px 12px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn-excluir:hover {
+    background-color:red;
+    color: #2f3542;
+
+}

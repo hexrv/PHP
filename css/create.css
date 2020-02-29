@@ -1,0 +1,86 @@
+
+ h1 {
+    text-align: center;
+    font-weight: 500;
+    margin: 0px 0px 0px 290px;
+}
+
+.box {
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    background: #7c7c7c;
+    text-align: center;
+
+}
+.box input[type="nome"],
+.box input[type="email"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #2f3542;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:white;
+    transition: 0.25s;
+
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: black;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2f3542;
+    padding: 14px 40px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #2f3542;
+    color: #ff6348;
+
+}
+.entrar {
+    display: flex;
+    font-size: 38px;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.btn-entrar {
+    border: 0;
+    background-color: #78e08f;
+    margin: 10px 5px;
+    border: 2px solid #2f3542;
+    padding: 6px 12px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn-entrar:hover {
+    background-color: #4cd137;
+    color: #2f3542;
+
+}

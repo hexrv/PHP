@@ -1,0 +1,74 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: #dcdde1;
+}
+.nome{
+    color: white;
+}
+.email{
+    color: white;
+}
+.btns{
+    display: flex;
+}
+
+.editar {
+    display: flex;
+    font-size: 38px;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.btn-editar {
+    border: 0;
+    background-color: #78e08f;
+    margin: 10px 5px;
+    border: 2px solid #2f3542;
+    padding: 6px 12px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn-editar:hover {
+    background-color: #4cd137;
+    color: #2f3542;
+
+}
+
+.excluir {
+    display: flex;
+    font-size: 38px;
+    justify-content: space-between;
+    align-items: center;
+    font-style: none;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.btn-excluir {
+    border: 0;
+    background-color: #EA2027;
+    margin: 10px 5px;
+    border: 2px solid #2f3542;
+    padding: 6px 12px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn-excluir:hover {
+    background-color:red;
+    color: #2f3542;
+
+}

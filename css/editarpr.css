@@ -1,0 +1,28 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: #dcdde1;
+}
+.titulos{
+    color: white;
+}
+.cadastrar{
+    
+    border: 0;
+    background-color: #78e08f;
+    margin: 10px 5px;
+    border: 2px solid #2f3542;
+    padding: 6px 230px;
+    outline: none;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.cadastrar:hover{
+    background-color: #4cd137;
+}
+ 
